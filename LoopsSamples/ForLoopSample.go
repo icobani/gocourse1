@@ -10,13 +10,18 @@
 * Developer : ibrahimcobani
 *
 *******/
-
-package Loops
+package LoopsSamples
 import "fmt"
+
 func SimpleSample() {
+	fmt.Println("----------")
+	fmt.Println("Simple For sample")
+	fmt.Println("----------")
+
 	var times int = 4
 	for i := 0; i < times; i++ {
 		fmt.Print(i + 1)
 		fmt.Println(" times hello")
 	}
+	fmt.Println("----------")
 }
