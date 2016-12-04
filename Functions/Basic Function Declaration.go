@@ -10,7 +10,7 @@
 * Developer : ibrahimcobani
 *
 *******/
-package basicFunctionDeclaration
+package basicFunctionDecleration
 
 import "fmt"
 

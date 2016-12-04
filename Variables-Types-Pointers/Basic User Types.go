@@ -10,7 +10,7 @@
 * Developer : ibrahimcobani
 *
 *******/
-package main
+package basicuserType
 
 type Item struct {
 	no            string

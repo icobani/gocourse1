@@ -10,7 +10,7 @@
 * Developer : ibrahimcobani
 *
 *******/
-package main
+package pointerAssignment
 
 import "fmt"
 

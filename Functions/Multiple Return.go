@@ -10,7 +10,7 @@
 * Developer : ibrahimcobani
 *
 *******/
-package multipleReturnValue
+package multipleReturn
 
 import "fmt"
 

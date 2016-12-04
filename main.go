@@ -12,5 +12,11 @@
 *******/
 package main
 
+import (
+	"./Loops"
+)
+
 func main() {
+	Loops.SimpleSample()
+	
 }

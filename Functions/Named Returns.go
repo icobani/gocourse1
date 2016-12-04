@@ -5,12 +5,12 @@
 *
 *
 *
-* Date      : 20/11/2016    
-* Time      : 21:04
+* Date      : 29/11/2016    
+* Time      : 22:22
 * Developer : ibrahimcobani
 *
 *******/
-package addingReturn
+package NamedReturns
 
 import "fmt"
 
@@ -22,11 +22,14 @@ type Item struct {
 }
 
 func GetItemInfo(paramItem Item) {
-	fmt.Println(CreateMessage(paramItem.no, paramItem.name))
+	firstReturnValue, lastReturnValue := CreateMessage(paramItem.no, paramItem.name)
+	fmt.Println(firstReturnValue, lastReturnValue)
 }
 
-func CreateMessage(code, name string) string {
-	return "{" + "code:'" + code + "', name: '" + name + "'}"
+func CreateMessage(code, name string) (Code string, Name string) {
+	Code = "{" + "code:'" + code + "', name: '" + name + "'}"
+	Name = " --- *** --- Bu da ikinci parametre " + code
+	return
 }
 
 func main() {

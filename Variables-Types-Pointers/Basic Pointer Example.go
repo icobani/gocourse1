@@ -10,7 +10,7 @@
 * Developer : ibrahimcobani
 *
 *******/
-package main
+package basicPointerExample
 
 import "fmt"
 func main() {

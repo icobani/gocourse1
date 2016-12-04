@@ -10,7 +10,7 @@
 * Developer : ibrahimcobani
 *
 *******/
-package main
+package Constants
 
 const (
 	PI = 3.14
