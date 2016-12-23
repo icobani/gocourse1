@@ -13,10 +13,14 @@
 package main
 
 import (
-	"./Loops"
+	"github.com/icobani/GOTCMBCurrencyHelper"
+	"time"
 )
 
 func main() {
-	Loops.SimpleSample()
-	
+
+	CurrencyDate,_ := time.Parse("02-01-2006","07-08-2016")
+
+	dt := new(GOTCMBCurrencyHelper.Tarih_Date)
+	dt.GetToday(CurrencyDate)
 }

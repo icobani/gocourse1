@@ -10,14 +10,25 @@
 * Developer : ibrahimcobani
 *
 *******/
-package Loops
+package LoopsSamples
+
 import "fmt"
 
-func whileLoopSample() {
+func WhileLoopSample() {
+	fmt.Println("----------")
+	fmt.Println("While Loop Sample")
+	fmt.Println("----------")
 	var times int = 3
 	var i int = 0
 	for i < times {
+		i++
 		fmt.Print(i)
-		fmt.Println(" times hello")
+		if i % 2 == 1 {
+			fmt.Println(" is single")
+		} else {
+			fmt.Println(" is double")
+		}
+
 	}
+	fmt.Println("----------")
 }

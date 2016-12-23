@@ -16,14 +16,29 @@ import "fmt"
 
 // Sonsuz döngü
 func InfiniteLoop() {
-	var times int = 3
-	var i int = 0
+	var times int = 1000
+	var i int = 2
 	for {
 		i++
 		if i >= times {
 			break
 		}
-		fmt.Println("Heloo")
+
+		var noPrimeNumber bool  = false
+
+		for t := 2; t < i; t++ {
+			if (i % t == 0) {
+				noPrimeNumber = true
+				break
+			}
+		}
+
+		if noPrimeNumber {
+			continue
+		}
+
+
+		fmt.Printf(" %v is prime number\n", i)
 
 	}
 }
