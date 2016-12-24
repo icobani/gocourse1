@@ -12,15 +12,8 @@
 *******/
 package main
 
-import (
-	"github.com/icobani/GOTCMBCurrencyHelper"
-	"time"
-)
+import "github.com/icobani/course1/ConcurencySamples"
 
-func main() {
-
-	CurrencyDate,_ := time.Parse("02-01-2006","07-08-2016")
-
-	dt := new(GOTCMBCurrencyHelper.Tarih_Date)
-	dt.GetToday(CurrencyDate)
+func main()  {
+	ConcurencySamples.FileWatcher_main()
 }

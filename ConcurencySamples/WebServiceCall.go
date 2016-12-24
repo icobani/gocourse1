@@ -10,7 +10,7 @@
 * Developer : ibrahimcobani
 *
 *******/
-package main
+package ConcurencySamples
 
 import (
 	"net/http"
@@ -19,7 +19,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func WebServiceCallmain() {
 	dt := new(Tarih_Date)
 	dt.GetToday("2016", "12", "09")
 }

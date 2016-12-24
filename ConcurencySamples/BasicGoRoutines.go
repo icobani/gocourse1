@@ -10,11 +10,11 @@
 * Developer : ibrahim COBANI
 *
 *******/
-package main
+package ConcurencySamples
 
 import "time"
 
-func main() {
+func BasicGoRoutingmain() {
 	godur, _ := time.ParseDuration("1ms")
 	go func() {
 		for i := 0; i < 100; i++ {
