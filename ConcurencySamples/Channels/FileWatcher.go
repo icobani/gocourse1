@@ -20,13 +20,15 @@ import (
 	"strings"
 	"encoding/csv"
 	"strconv"
+	"runtime"
 )
 
 const watchedfolder = "./invoices"
 
 func FileWatcher_main() {
+	runtime.GOMAXPROCS(4)
 	for {
-		time.Sleep(400 * time.Millisecond)
+		time.Sleep(10000 * time.Millisecond)
 		d, _ := os.Open(watchedfolder)
 		files, _ := d.Readdir(-1)
 		for _, fl := range files {
@@ -35,7 +37,7 @@ func FileWatcher_main() {
 			data, _ := ioutil.ReadAll(f)
 			f.Close()
 			os.Remove(filepath)
-6
+
 			go func(data string) {
 				reader := csv.NewReader(strings.NewReader(data))
 				records, _ := reader.ReadAll()
@@ -49,7 +51,7 @@ func FileWatcher_main() {
 					invoice.UnitPrice, _ = strconv.ParseFloat(r[4], 64)
 					invoice.Quantity, _ = strconv.Atoi(r[5])
 					invoice.LineAmount = invoice.UnitPrice * float64(invoice.Quantity)
-					fmt.Printf("Received Invoice '%v' for $%.2f and Submited\n", invoice.DocumentNo, invoice.LineAmount)
+					fmt.Printf("%s Received Invoice '%v' for $%.2f and Submited\n",invoice.PostingDate, invoice.DocumentNo, invoice.LineAmount)
 				}
 			}(string(data))
 		}

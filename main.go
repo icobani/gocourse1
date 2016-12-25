@@ -15,5 +15,8 @@ package main
 import "github.com/icobani/course1/ConcurencySamples"
 
 func main()  {
-	ConcurencySamples.FileWatcher_main()
+	// ConcurencySamples.FileWatcher_main()
+	// ConcurencySamples.BasicChannelMain()
+	//ConcurencySamples.BufferedChannelsMain()
+	ConcurencySamples.SwitchingBwtweenChannelsMain()
 }
