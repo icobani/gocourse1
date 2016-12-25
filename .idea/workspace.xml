@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6758dc29-0c68-49ac-a2bc-961deeeec941" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurencySamples/Channels/BufferedChannels.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurencySamples/Channels/SwitchingBetweenChanels.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurencySamples/GoRouting/BasicChannels.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ConcurencySamples/BasicGoRoutines.go" afterPath="$PROJECT_DIR$/ConcurencySamples/GoRouting/BasicGoRoutines.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ConcurencySamples/FileWatcher.go" afterPath="$PROJECT_DIR$/ConcurencySamples/Channels/FileWatcher.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ConcurencySamples/GetStock.go" afterPath="$PROJECT_DIR$/ConcurencySamples/GoRouting/GetStock.go" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ConcurencySamples/WebServiceCall.go" afterPath="$PROJECT_DIR$/ConcurencySamples/GoRouting/WebServiceCall.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/SimulatingCallBack.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/SimulatingEvents.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/SimulatingPromises.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/Mutext.go" afterPath="$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/Mutext.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,34 +31,22 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="358">
+              <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
               <folding>
-                <element signature="e#216#269#0" expanded="true" />
+                <element signature="e#216#307#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BufferedChannels.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ConcurencySamples/Channels/BufferedChannels.go">
+      <file leaf-file-name="SimulatingPromises.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/SimulatingPromises.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="-32">
+              <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
               <folding>
-                <element signature="e#229#257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwitchingBetweenChanels.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ConcurencySamples/Channels/SwitchingBetweenChanels.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-              <folding>
-                <element signature="e#229#241#0" expanded="true" />
+                <element signature="e#244#271#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,8 +111,13 @@
         <option value="$PROJECT_DIR$/ConcurencySamples/BasicChannels.go" />
         <option value="$PROJECT_DIR$/ConcurencySamples/Buffered Channels.go" />
         <option value="$PROJECT_DIR$/ConcurencySamples/BufferedChannels.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/ConcurencySamples/SwitchingBetweenChanels.go" />
+        <option value="$PROJECT_DIR$/log.txt" />
+        <option value="$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/Mutext.go" />
+        <option value="$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/SimulatingEvents.go" />
+        <option value="$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/SimulatingCallBack.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/SimulatingPromises.go" />
       </list>
     </option>
   </component>
@@ -220,7 +210,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GoRouting" />
+              <option name="myItemId" value="IntegrationGoRoutinesAndChannels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="course1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConcurencySamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoRoutine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -418,7 +426,7 @@
       <workItem from="1480837901800" duration="4061000" />
       <workItem from="1480850220439" duration="11000" />
       <workItem from="1480961870229" duration="33219000" />
-      <workItem from="1482520814849" duration="11798000" />
+      <workItem from="1482520814849" duration="24545000" />
     </task>
     <task id="LOCAL-00001" summary="Hello Kitty">
       <created>1480838823738</created>
@@ -438,19 +446,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61226000" />
+    <option name="totallyTimeSpent" value="73973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="23" width="1177" height="717" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26643598" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26643598" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Serial Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2112" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -481,52 +489,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Variables-Types-Pointers/Constants.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Basic Function Declaration.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Functions/Adding a Return.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#216#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Variables-Types-Pointers/Basic Pointer Example.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Variables-Types-Pointers/Pointer Assingment.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Variables-Types-Pointers/Basic User Types.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -754,7 +716,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConcurencySamples/GoRouting/GetStock.go">
+    <entry file="file://$PROJECT_DIR$/ConcurencySamples/GoRoutine/GetStock.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
@@ -762,7 +724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConcurencySamples/GoRouting/BasicGoRoutines.go">
+    <entry file="file://$PROJECT_DIR$/ConcurencySamples/GoRoutine/BasicGoRoutines.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
@@ -806,7 +768,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConcurencySamples/GoRouting/BasicChannels.go">
+    <entry file="file://$PROJECT_DIR$/ConcurencySamples/GoRoutine/BasicChannels.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
@@ -826,17 +788,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="e#216#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConcurencySamples/GoRouting/WebServiceCall.go">
+    <entry file="file://$PROJECT_DIR$/ConcurencySamples/GoRoutine/WebServiceCall.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
@@ -850,6 +802,72 @@
           <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
           <folding>
             <element signature="e#229#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/os/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="40" column="2" lean-forward="false" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/Mutext.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="51" column="2" lean-forward="false" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+          <folding>
+            <element signature="e#244#286#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/SimulatingEvents.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1213">
+          <caret line="83" column="51" lean-forward="false" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+          <folding>
+            <element signature="e#244#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/SimulatingCallBack.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#244#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="e#216#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConcurencySamples/IntegrationGoRoutinesAndChannels/SimulatingPromises.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <folding>
+            <element signature="e#244#271#0" expanded="true" />
           </folding>
         </state>
       </provider>
